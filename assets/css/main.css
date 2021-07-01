@@ -115,3 +115,94 @@
     font-size: 24px;
     margin: unset;
 }
+
+/* BRANDSECTION */
+.brand-section {
+    padding: 35px;
+}
+
+.brand-section .boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand-section .boxes .box {
+    background-color: #cacaca;
+    position: relative;
+    padding: unset;
+    border: 10px solid #cacaca;
+    width: 500px;
+}
+
+.brand-section .box .box-text {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: #333333;
+    width: 100%;
+    color: #fff;
+    text-align: right;
+}
+
+.brand-section .box-text p {
+    margin: unset;
+}
+
+.brand-section .brands {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: #dfdfdf;
+    border-top: 10px solid #cacaca;
+}
+
+.footer .company {
+    align-self: center;
+}
+
+.footer .list-group .list-group-item {
+    background-color: #dfdfdf;
+    border: none;
+    color: #787878;
+    font-size: 13px;
+}
+
+.footer .shop-openings {
+    font-weight: 900;
+    font-size: 12px;
+    color: #787878;
+}
+
+.footer .openings-hours {
+    color: #787878;
+    font-size: 12px;
+}
+
+.footer .social-text {
+    margin-top: 20px;
+    color: #787878;
+    font-size: 12px;
+}
+
+/* BOTTOMBAR */
+.bottombar {
+    padding: 20px;
+    background-color: #171717;
+}
+
+.bottombar .col-md-6:first-child {
+    text-align: left;
+}
+
+.bottombar .col-md-6:last-child {
+    text-align: right;
+}
+
+.bottombar .bottombar-text {
+    color: #787878;
+    font-size: 12px;
+    margin: unset;
+}
