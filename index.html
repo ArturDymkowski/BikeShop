@@ -5,13 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/main.css">
 
     <title>Bike Shop</title>
 </head>
 <body>
 
-<h1>Hello World !</h1>
+<!-- Topbar -->
+<div class="topbar container-fluid">
+    <div class="row">
+        <div class="logo col-md-6">
+            <img src="assets/img/logo.jpg" alt="Logo" class="img-fluid">
+            <h1 class="logo-text">Company
+                Name Here
+            </h1>
+        </div>
+        <div class="contact-text col-md-6">
+            <p class="topbar-text">Call Us On <a href="#">xxxxx xxxxx</a></p>
+            <p class="topbar-text">Find Us On <a href="#">Google Maps</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Page</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="serach term here" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Front image -->
+<div class="front-image container-fluid">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <img src="assets/img/front-image.jpg" alt="Front image" class="img-fluid w-100">
+            <div class="text-image"><p>Welcome to the (Company Name Here) Motorbike Studio and Online Shop</p></div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
 
 <script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="packages/bootstrap/js/bootstrap.js"></script>
